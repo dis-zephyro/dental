@@ -7,6 +7,25 @@ var slide = $('.slide-inner').slick({
 });
 
 
+
+
+$(".btn-popup").fancybox({
+    'padding' : 0,
+    'closeBtn' : false
+});
+
+$('.btn-close').click(function(){
+    $.fancybox.close();
+});
+
+$('.close-link').click(function(){
+    $.fancybox.close();
+});
+
+$(".certification-item").fancybox({
+    'padding' : 0
+});
+
 // menu --------
 
 $(function Faq() {
@@ -30,7 +49,6 @@ $(function Faq() {
         }
     });
 });
-
 
 $(function Quest() {
 // Указываем переменные

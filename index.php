@@ -37,7 +37,7 @@
                     </ul>
                 </div>
                 <div class="keynote-text">
-                    <h2>Вступительное слово</h2>
+                    <h1>Вступительное слово</h1>
                     <p>Мы живём в эпоху перемен. Одно из условий формирования гражданского общества – возможность у населения получать полную и доступную информацию по важным социально значимым вопросам.</p>
                     <p>В том числе, о ВИЧ-инфекции. Прибайкалье вышло из тройки лидеров антирейтинга российских регионов 		по числу больных ею жителей, наметилась тенденция к стабилизации с распространением заболевания.</p>
                     <p>Благодаря врачам, сотрудникам социальных служб, органов образования при содействии региональных и федеральных властей ситуация с ВИЧ-инфекцией теперь не кажется безнадёжной. На средства областного и федерального бюджетов Центром СПИД (ГБУЗ «Иркутский областной центр по профилактике и борьбе со СПИД 	и инфекционными заболеваниями») запущено новейшее высокотехнологичное медицинское оборудование. 	Нашу молекулярно- генетическую лабораторию называют самой оснащённой в стране. Она фиксирует малейшие изменения в организме пациентов, и с учётом этих данных каждому назначается индивидуальная терапия. Современные препараты отпускаются бесплатно за счёт государства и вызывают минимум побочных эффектов. Лечение доступно всем нуждающимся.</p>
@@ -47,7 +47,7 @@
             </div>
 
             <div class="faq-block">
-                <h2 class="text-center">Ответы на частые вопросы</h2>
+                <h1 class="text-center">Ответы на частые вопросы</h1>
                 <ul class="faq">
                     <li>
                         <span class="faq-title">Протезирование для пенсионеров</span>
@@ -138,14 +138,14 @@
                     <button class="btn btn-blue btn-large">ПОЛУЧИТЬ <span class="hidden-xs">БЕСПЛАТНУЮ</span> КОНСУЛЬТАЦИЮ</button>
                 </form>
                 <div class="text-center">
-                    <a href="#order-form" class="order-link">Записаться на прием</a>
+                    <a href="#order-form" class="order-link  btn-popup">Записаться на прием</a>
                 </div>
             </div>
         </div>
 
         <div class="advantage">
             <div class="container">
-                <h2 class="text-center">Основные преимущества<br/>системы активной имплантации</h2>
+                <h1 class="text-center">Основные преимущества<br/>системы активной имплантации</h1>
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
                         <div class="advant-box">
@@ -178,7 +178,7 @@
         <div class="container">
 
             <div class="reply">
-                <h2 class="text-center">Отзывы пациентов</h2>
+                <h1 class="text-center">Отзывы пациентов</h1>
                 <ul class="clearfix">
                     <li>
                         <div class="reply-title">Спасибо, буду обращаться!</div>
@@ -199,7 +199,7 @@
             </div>
 
             <div class="specialist-block">
-                <h2 class="text-center">Наши специалисты</h2>
+                <h1 class="text-center">Наши специалисты</h1>
                 <div class="row text-center">
                     <div class="col-sm-4">
                         <div class="specialist-photo">
@@ -226,7 +226,7 @@
             </div>
 
             <div class="service-block">
-                <h2 class="text-center">Наши услуги</h2>
+                <h1 class="text-center">Наши услуги</h1>
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
                         <a href="#" class="service-item">
@@ -314,13 +314,13 @@
                     <button class="btn btn-green btn-large">ПОЛУЧИТЬ <span class="hidden-xs">БЕСПЛАТНУЮ</span> КОНСУЛЬТАЦИЮ</button>
                 </form>
                 <div class="text-center">
-                    <a href="#order-form" class="order-link">Записаться на прием</a>
+                    <a href="#order-form" class="order-link btn-popup">Записаться на прием</a>
                 </div>
             </form>
         </div>
 
             <div class="certification-block">
-                <h2 class="text-center">Награды и сертификаты</h2>
+                <h1 class="text-center">Награды и сертификаты</h1>
                 <ul class="clearfix">
                     <li>
                         <a href="images/certification01.jpg" class="certification-item">
@@ -353,7 +353,7 @@
         </div>
 
         <div class="partner-block">
-            <h2 class="text-center"><span>Наши партнеры</span></h2>
+            <h1 class="text-center"><span>Наши партнеры</span></h1>
             <div class="container">
                 <ul class="clearfix">
                     <li>
@@ -377,11 +377,11 @@
 
         <div class="quest-more">
             <div class="container">
-                <h2 class="text-center">Остались вопросы?</h2>
+                <h1 class="text-center">Остались вопросы?</h1>
                 <div class="text">Хватит раздумывать!</div>
                 <div class="text-center">
-                    <a href="#" class="btn btn-blue invert">ЗАДАЙТЕ ИХ ВРАЧУ</a>
-                    <a href="#" class="btn btn-green">ЗАПИШИТЕСЬ НА ПРИЕМ</a>
+                    <a href="#form-quest" class="btn btn-blue invert btn-popup">ЗАДАЙТЕ ИХ ВРАЧУ</a>
+                    <a href="#order-form" class="btn btn-green btn-popup">ЗАПИШИТЕСЬ НА ПРИЕМ</a>
                 </div>
             </div>
         </div>

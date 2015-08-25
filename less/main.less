@@ -558,7 +558,7 @@ body {
 .keynote {
 	margin-bottom: 30px;
 
-	h2 {
+	h1 {
 		margin-top: -5px;
 	}
 
@@ -645,7 +645,7 @@ body {
 .faq-block {
 	margin-bottom: 40px;
 
-	h2 {
+	h1 {
 		margin-bottom: 20px;
 	}
 
@@ -803,7 +803,7 @@ body {
 	margin-bottom: 35px;
 	background: #10ace8;
 
-	h2 {
+	h1 {
 		color: #fff;
 		margin-bottom: 45px;
 	}
@@ -868,7 +868,7 @@ body {
 .reply {
 	margin-bottom: 40px;
 
-	h2 {
+	h1 {
 		margin-bottom: 25px;
 	}
 
@@ -937,7 +937,7 @@ body {
 	border: 3px solid #00a0de;
 	.border-radius(7px);
 
-	h2 {
+	h1 {
 		margin-bottom: 40px;
 	}
 
@@ -997,7 +997,7 @@ body {
 	width: 294px;
 	margin: 0 auto 70px auto;
 
-	h2 {
+	h1 {
 		margin-bottom: 30px;
 	}
 
@@ -1112,7 +1112,7 @@ body {
 .certification-block {
 	margin-bottom: 30px;
 
-	h2 {
+	h1 {
 		margin-bottom: 30px;
 	}
 
@@ -1143,7 +1143,7 @@ body {
 .partner-block {
 	margin-bottom: 25px;
 
-	h2 {
+	h1 {
 		position: relative;
 
 		&:before {
@@ -1196,7 +1196,7 @@ body {
 	background: #00a0de;
 	padding-bottom: 30px;
 
-	h2 {
+	h1 {
 		margin-bottom: 0;
 	}
 
@@ -1217,15 +1217,103 @@ body {
 }
 
 
-/* ------- Button -------- */
+
+/* ------- Popup -------- */
+
+.form-popup {
+	width: 290px;
+	background: #fff;
+	padding: 17px 30px 30px 30px;
+
+
+	.btn-close {
+		top: 0;
+		right: 0;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		position: absolute;
+		background: #2196f3 url("../img/btn-close.png") 50% 50% no-repeat;
+
+		&:hover {
+			background-color: #10ace8;
+		}
+	}
+
+	.form-title {
+		color: #303030;
+		font-size: 24px;
+		line-height: 25px;
+		margin-bottom: 15px;
+		font-family: @font-bold;
+	}
+
+	.form-group {
+		margin-bottom: 20px;
+	}
+
+	.form-control {
+
+		&.form-name {
+			.border-radius(4px 4px 0 0);
+		}
+
+		&.form-phone {
+			.border-radius(0 0 4px 4px);
+		}
+	}
+
+	.btn {
+		width: 100%;
+		display: block;
+	}
+
+	textarea {
+		height: 173px;
+	}
+
+	.form-done {
+		color: #000;
+		height: 148px;
+		font-size: 14px;
+		overflow: hidden;
+		line-height: 22px;
+		padding-top: 20px;
+
+		p {
+			margin-bottom: 40px;
+		}
+
+		.close-link {
+			color: #2196f3;
+			font-size: 16px;
+			cursor: pointer;
+			text-transform: uppercase;
+		}
+	}
+}
+
+/* ------- Button & Form -------- */
+
+
 
 .btn {
+	overflow: hidden;
 	outline: none;
 	font-size: 16px;
 	line-height: 21px;
 	font-family: @font-bold;
 	text-transform: uppercase;
 	padding: 6px 25px;
+
+	&:focus,
+	&:active {
+		outline: none !important;
+	}
+
+	&::-moz-focus-inner {
+		border: 0 !important;
+	}
 }
 
 .btn-green {
@@ -1292,22 +1380,27 @@ body {
 
 
 .form-control {
-	height: 42px;
+	height: auto;
 	color: #333333;
 	font-size: 14px;
 	background: #fcfcfe;
 	.border-radius(4px);
 	.box-shadow(none);
 	border-color: #dbdee5;
-	padding: 9px 12px;
+	padding: 10px 12px;
 
-	.placeholder(#333333);
+	.placeholder(#b8b8b8);
 
 	&:focus {
 		background: #fff;
 		.box-shadow(none);
 	}
 }
+
+textarea {
+	resize: vertical;
+}
+
 
 /* Typography
    ========================= */
@@ -1319,7 +1412,7 @@ h1, h2, h3, h4 {
 }
 
 
-h2 {
+h1 {
 	font-size: 36px;
 	line-height: 40px;
 	margin-bottom: 15px;

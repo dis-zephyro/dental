@@ -13,11 +13,11 @@
             <div class="col-sm-3 col-md-6 col-lg-6 clearfix">
                 <div class="callback  hidden-sm hidden-xs">
                     <div class="text">Перезвоним через 15 минут</div>
-                    <a class="btn btn-green">обратный звонок</a>
+                    <a href="#callback" class="btn btn-green btn-popup">обратный звонок</a>
                 </div>
                 <div class="ask-question hidden-md hidden-sm hidden-xs">
                     <div class="text">Мы можем помочь!</div>
-                    <a class="btn btn-green">Задать вопрос</a>
+                    <a href="#form-quest" class="btn btn-green btn-popup">Задать вопрос</a>
                 </div>
                 <ul class="address">
                     <li>ул. Амурская, д. 44, к. 2</li>

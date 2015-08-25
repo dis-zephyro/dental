@@ -42,8 +42,97 @@
     </div>
 </footer>
 
-<div class="hidden"></div>
 
+<!-- Callback Form -->
+<div class="hidden">
+    <div class="form-popup" id="callback">
+        <span class="btn-close"></span>
+        <div class="form-title">Обратный звонок</div>
+        <form class="form">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control form-name" placeholder="Ваше имя">
+                <input type="text" name="phone" class="form-control form-phone" placeholder="Введите ваш телефон">
+            </div>
+            <button type="submit" class="btn btn-green btn-large">ПЕРЕЗВОНИТЕ МНЕ</button>
+        </form>
+
+        <div class="hidden">
+            <div class="form-done">
+                <p>
+                    Мы свяжемся с вами в течение<br/>
+                    15 минут. Не выключайте,<br/>
+                    пожалуйтса, телефон
+                </p>
+                <div class="text-right">
+                    <span class="close-link">Закрыть</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Question Form -->
+<div class="hidden">
+    <div class="form-popup" id="form-quest">
+        <span class="btn-close"></span>
+        <div class="form-title">Задать вопрос</div>
+        <form class="form">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control form-name" placeholder="Ваше имя">
+                <input type="text" name="phone" class="form-control form-phone" placeholder="Введите ваш телефон">
+            </div>
+            <div class="form-group">
+                <textarea name="text" class="form-control" placeholder="Опишите суть вопроса"></textarea>
+            </div>
+            <button type="submit" class="btn btn-green btn-large">ОТПРАВИТЬ</button>
+        </form>
+
+        <div class="hidden">
+            <div class="form-done">
+                <p>
+                    Мы свяжемся с вами в течение<br/>
+                    15 минут. Не выключайте,<br/>
+                    пожалуйтса, телефон
+                </p>
+                <div class="text-right">
+                    <span class="close-link">Закрыть</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Order Form -->
+<div class="hidden">
+    <div class="form-popup" id="order-form">
+        <span class="btn-close"></span>
+        <div class="form-title">Запись на прием</div>
+        <form class="form">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control form-name" placeholder="Ваше имя">
+                <input type="text" name="phone" class="form-control form-phone" placeholder="Введите ваш телефон">
+            </div>
+            <div class="form-group">
+                <textarea name="text" class="form-control" placeholder="Желаемые дата и время приема"></textarea>
+            </div>
+            <button type="submit" class="btn btn-green btn-large">Записаться</button>
+        </form>
+
+        <div class="hidden">
+            <div class="form-done">
+                <p>
+                    Мы свяжемся с вами в течение<br/>
+                    15 минут. Не выключайте,<br/>
+                    пожалуйтса, телефон
+                </p>
+                <div class="text-right">
+                    <span class="close-link">Закрыть</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
