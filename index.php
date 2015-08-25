@@ -177,7 +177,7 @@
 
         <div class="container">
 
-            <div class="reply">
+            <div class="reply-block">
                 <h1 class="text-center">Отзывы пациентов</h1>
                 <ul class="clearfix">
                     <li>
