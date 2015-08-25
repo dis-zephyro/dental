@@ -83,17 +83,17 @@
                             <div class="gallery">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <a href="#" class="gallery-thumb">
+                                        <a href="images/gallery-pic01.jpg" class="gallery-thumb">
                                             <img class="img-responsive" src="images/gallery-pic01.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="col-sm-4">
-                                        <a href="#" class="gallery-thumb">
+                                        <a href="images/gallery-pic02.jpg" class="gallery-thumb">
                                             <img class="img-responsive" src="images/gallery-pic02.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="col-sm-4">
-                                        <a href="#" class="gallery-thumb">
+                                        <a href="images/gallery-pic03.jpg" class="gallery-thumb">
                                             <img class="img-responsive" src="images/gallery-pic03.jpg" alt="">
                                         </a>
                                     </div>

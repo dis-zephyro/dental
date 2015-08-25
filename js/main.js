@@ -1,4 +1,12 @@
-var slide = $('.slide-inner').slick({
+$('.slide-inner').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    arrows: false
+});
+
+$('.side-slider-body').slick({
     dots: true,
     infinite: true,
     speed: 300,
@@ -22,7 +30,7 @@ $('.close-link').click(function(){
     $.fancybox.close();
 });
 
-$(".certification-item").fancybox({
+$(".certification-item, .gallery a").fancybox({
     'padding' : 0
 });
 

@@ -439,6 +439,108 @@ body {
   color: #ababab;
   font-size: 14px;
 }
+.side-slider {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 50px;
+  border: 2px solid #00a0de;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.side-slider .side-slider-title {
+  font-size: 20px;
+  padding: 0 15px;
+  background: #fff;
+  line-height: 20px;
+  margin-top: -12px;
+  margin-bottom: 30px;
+  position: relative;
+  font-family: 'SegoeUI-SemiBold';
+}
+.side-slider .side-slider-photo {
+  width: 150px;
+  overflow: hidden;
+  margin: 0 auto 15px auto;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+}
+.side-slider .side-slider-name {
+  color: #000;
+  font-size: 20px;
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid #ababab;
+}
+.side-slider .side-slider-name:hover {
+  color: #000;
+  text-decoration: none;
+  border-color: transparent;
+}
+.side-slider .side-slider-status {
+  color: #ababab;
+  display: block;
+  margin-top: 8px;
+  font-style: italic;
+}
+.side-slider .side-slider-body {
+  height: 290px;
+  overflow: hidden;
+  position: relative;
+}
+.side-slider .side-slider-item {
+  outline: none;
+}
+.side-slider .slick-dots {
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  bottom: 20px;
+  list-style: none;
+  position: absolute;
+  text-align: center;
+}
+.side-slider .slick-dots li {
+  width: 9px;
+  height: 9px;
+  font-size: 0;
+  margin: 0 5px;
+  line-height: 0;
+  overflow: hidden;
+  background: #cdcdcd;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.side-slider .slick-dots li button {
+  border: 0;
+  width: 9px;
+  height: 9px;
+  font-size: 0;
+  padding: 5px;
+  outline: none;
+  line-height: 0;
+  display: block;
+  cursor: pointer;
+  color: transparent;
+  background: transparent;
+}
+.side-slider .slick-dots li.slick-active {
+  background: #28ace2;
+}
+@media (min-width: 768px) {
+  .side-slider {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 992px) {
+  .side-slider {
+    padding: 0 50px;
+  }
+}
 /* ----- Slider ----- */
 .top-line {
   color: #fff;
@@ -998,6 +1100,9 @@ body {
 .faq-block .faq-title.active {
   border-color: transparent;
 }
+.faq-block .faq-title:hover {
+  border-color: transparent;
+}
 .faq-block .faq-section {
   margin: 15px 0 8px 0;
   padding: 20px;
@@ -1028,6 +1133,9 @@ body {
   cursor: pointer;
   line-height: 20px;
   border-bottom: 1px dashed #10ace8;
+}
+.faq-block .question:hover {
+  border-color: transparent;
 }
 .faq-block .question.active {
   border-color: transparent;

@@ -485,6 +485,112 @@ body {
 	}
 }
 
+.side-slider {
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 0 50px;
+	border: 2px solid #00a0de;
+	.border-radius(8px);
+
+	.side-slider-title {
+		font-size: 20px;
+		padding: 0 15px;
+		background: #fff;
+		line-height: 20px;
+		margin-top: -12px;
+		margin-bottom: 30px;
+		position: relative;
+		font-family: @font-semi;
+	}
+
+	.side-slider-photo {
+		width: 150px;
+		overflow: hidden;
+		margin: 0 auto 15px auto;
+		.border-radius(75px);
+	}
+
+	.side-slider-name {
+		color: #000;
+		font-size: 20px;
+		line-height: 22px;
+		text-decoration: none;
+		border-bottom: 1px solid #ababab;
+
+		&:hover {
+			color: #000;
+			text-decoration: none;
+			border-color: transparent;
+		}
+	}
+
+	.side-slider-status {
+		color: #ababab;
+		display: block;
+		margin-top: 8px;
+		font-style: italic;
+	}
+
+	.side-slider-body {
+		height: 290px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.side-slider-item {
+		outline: none;
+	}
+
+	.slick-dots {
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		bottom: 20px;
+		list-style: none;
+		position: absolute;
+		text-align: center;
+
+		li {
+			width: 9px;
+			height: 9px;
+			font-size: 0;
+			margin: 0 5px;
+			line-height: 0;
+			overflow: hidden;
+			background: #cdcdcd;
+			display: inline-block;
+			.border-radius(50%);
+
+			button {
+				border: 0;
+				width: 9px;
+				height: 9px;
+				font-size: 0;
+				padding: 5px;
+				outline: none;
+				line-height: 0;
+				display: block;
+				cursor: pointer;
+				color: transparent;
+				background: transparent;
+			}
+
+			&.slick-active {
+				background: #28ace2;
+			}
+		}
+	}
+
+	@media (min-width: @min-sm) {
+		padding: 0 20px;
+	}
+
+	@media (min-width: @min-md) {
+		padding: 0 50px;
+	}
+}
+
 
 /* ----- Slider ----- */
 
@@ -1153,6 +1259,10 @@ body {
 		&.active {
 			border-color: transparent;
 		}
+
+		&:hover {
+			border-color: transparent;
+		}
 	}
 
 	.faq-section {
@@ -1186,6 +1296,10 @@ body {
 		cursor: pointer;
 		line-height: 20px;
 		border-bottom: 1px dashed #10ace8;
+
+		&:hover {
+			border-color: transparent;
+		}
 
 		&.active {
 			border-color: transparent;
