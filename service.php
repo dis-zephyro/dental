@@ -53,16 +53,16 @@
                             <p>
                                 Раздел стоматологии, изучающий патологию тканей, окружающих зуб (кость, десна и связочный аппарат), называется пародонтологией. Данная область медицины делает упор не только на лечение, но и на предотвращение возможных заболеваний.
                             </p>
-
-                            <table class="table table-striped">
-                                <thead>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
                                     <tr>
                                         <th>Наименование</th>
                                         <th>Стоимость (руб.)</th>
                                         <th>Дополнительная информация</th>
                                     </tr>
-                                </thead>
-                                <tbody>
+                                    </thead>
+                                    <tbody>
                                     <tr>
                                         <td>Лечение десен</td>
                                         <td>12 000</td>
@@ -78,8 +78,10 @@
                                         <td>9 000</td>
                                         <td>Немецкое качество. Гарантия 2 года.</td>
                                     </tr>
-                                </tbody>
-                            </table>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             <div class="gallery">
                                 <div class="row">
                                     <div class="col-sm-4">
