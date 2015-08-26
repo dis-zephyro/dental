@@ -1,0 +1,33 @@
+.specialist-block  .col-sm-4 {
+    opacity: 0;
+}
+.specialist-block .animated .item1  {
+    -webkit-animation: scaleUp .5s forwards;
+    animation: scaleUp .5s forwards;
+}
+.specialist-block .animated .item2 {
+    -webkit-animation: scaleUp .5s .3s forwards;
+    animation: scaleUp .5s .3s forwards;
+}
+.specialist-block .animated .item3 {
+    -webkit-animation: scaleUp .5s .6s forwards;
+    animation: scaleUp .5s .6s forwards;
+}
+
+
+.advant-box {
+    opacity: 0;
+}
+.animated .advant-box {
+    -webkit-animation: fadeInDown .5s .3s forwards;
+    animation: fadeInDown .5s .3s forwards;
+}
+
+
+.service-block .row {
+    opacity: 0;
+}
+.service-block .row.animated {
+    -webkit-animation: flipInX .8s .5s forwards;
+    animation: flipInX .8s .5s forwards;
+}

@@ -168,24 +168,24 @@ body {
 .topnav a {
   font-size: 16px;
 }
+.topnav .nav > li {
+  background: #10ace8;
+}
 .topnav .nav > li > a {
   color: #fff;
-  background: #10ace8;
+  background: transparent;
   padding: 14px 8px;
   font-family: 'SegoeUI-SemiBold';
 }
-.topnav .nav > li > a:hover {
+.topnav .nav > li:hover {
   background-color: #0d8bd3;
-}
-.topnav .nav .open > a,
-.topnav .nav .open > a:hover,
-.topnav .nav .open > a:focus {
-  background-color: #0d8bd3;
-  border-color: #0d8bd3;
 }
 .topnav .dropdown-menu {
+  width: 100%;
   border: none;
-  background-color: #0676b5;
+  display: block;
+  position: relative;
+  background-color: #10ace8;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -213,6 +213,11 @@ body {
   .topnav .navbar-brand {
     display: none;
   }
+  .topnav .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #0676b5;
+  }
   .topnav .navbar-nav {
     width: 100%;
     display: table;
@@ -221,6 +226,9 @@ body {
     float: none;
     text-align: center;
     display: table-cell;
+  }
+  .topnav .navbar-nav > li:hover .dropdown-menu {
+    display: block;
   }
 }
 @media (min-width: 1320px) {

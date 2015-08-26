@@ -10,7 +10,7 @@
         <div class="navbar-collapse collapse" style="height: auto;">
             <ul class="nav navbar-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">О клинике <b class="caret"></b></a>
+                    <a href="#">О клинике <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Специалисты</a></li>
                         <li><a href="#">Оборудование</a></li>
@@ -19,7 +19,7 @@
                 </li>
                 <li><a href="#">Наши врачи</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги и цены <b class="caret"></b></a>
+                    <a href="#">Услуги и цены <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Терапия</a></li>
                         <li><a href="#">Протезирование</a></li>

@@ -146,7 +146,7 @@
         <div class="advantage">
             <div class="container">
                 <h1 class="text-center">Основные преимущества<br/>системы активной имплантации</h1>
-                <div class="row">
+                <div class="row scroll">
                     <div class="col-sm-6 col-md-3">
                         <div class="advant-box">
                             <div class="advant-title item1">Уникальный<br/>опыт</div>
@@ -200,22 +200,22 @@
 
             <div class="specialist-block">
                 <h1 class="text-center">Наши специалисты</h1>
-                <div class="row text-center">
-                    <div class="col-sm-4">
+                <div class="row text-center scroll">
+                    <div class="col-sm-4 item1">
                         <div class="specialist-photo">
                             <img class="img-responsive" src="images/doctor_01.jpg" alt="">
                         </div>
                         <a class="specialist-name" href="#"><span>Агами<br/>Борис Павлович</span></a>
                         <span class="specialist-status">Доктор медицины</span>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4  item2">
                         <div class="specialist-photo">
                             <img class="img-responsive" src="images/doctor_02.jpg" alt="">
                         </div>
                         <a class="specialist-name" href="#"><span>Мухамадиев<br/>Дамир Миргасимович</span></a>
                         <span class="specialist-status">Кандидат медицинских наук</span>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4  item2">
                         <div class="specialist-photo">
                             <img class="img-responsive" src="images/doctor_03.jpg" alt="">
                         </div>
@@ -227,7 +227,7 @@
 
             <div class="service-block">
                 <h1 class="text-center">Наши услуги</h1>
-                <div class="row">
+                <div class="row scroll">
                     <div class="col-sm-6 col-md-3">
                         <a href="#" class="service-item">
                             <img class="img-responsive" src="img/service01.jpg" alt="">
