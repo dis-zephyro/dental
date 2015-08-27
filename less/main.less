@@ -26,6 +26,26 @@ body {
 
 /* ----- Top ----- */
 
+.header {
+	z-index: 200;
+	background: #fff;
+
+	@media (min-width: @min-md) {
+
+		top:0;
+		left: 0;
+		right: 0;
+		position: fixed;
+
+		.top-line {
+			margin-top: 150px;
+		}
+	}
+}
+
+
+
+
 .top {
 	color: #333;
 	font-size: 14px;

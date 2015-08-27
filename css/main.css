@@ -81,6 +81,21 @@ body {
   font-family: 'SegoeUI-Regular';
 }
 /* ----- Top ----- */
+.header {
+  z-index: 200;
+  background: #fff;
+}
+@media (min-width: 992px) {
+  .header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+  .header .top-line {
+    margin-top: 150px;
+  }
+}
 .top {
   color: #333;
   font-size: 14px;
