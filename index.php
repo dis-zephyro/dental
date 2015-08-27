@@ -203,21 +203,27 @@
                 <div class="row text-center scroll">
                     <div class="col-sm-4 item1">
                         <div class="specialist-photo">
-                            <img class="img-responsive" src="images/doctor_01.jpg" alt="">
+                            <a href="#">
+                                <img class="img-responsive" src="images/doctor_01.jpg" alt="">
+                            </a>
                         </div>
                         <a class="specialist-name" href="#"><span>Агами<br/>Борис Павлович</span></a>
                         <span class="specialist-status">Доктор медицины</span>
                     </div>
                     <div class="col-sm-4  item2">
                         <div class="specialist-photo">
-                            <img class="img-responsive" src="images/doctor_02.jpg" alt="">
+                            <a href="#">
+                                <img class="img-responsive" src="images/doctor_02.jpg" alt="">
+                            </a>
                         </div>
                         <a class="specialist-name" href="#"><span>Мухамадиев<br/>Дамир Миргасимович</span></a>
                         <span class="specialist-status">Кандидат медицинских наук</span>
                     </div>
                     <div class="col-sm-4  item2">
                         <div class="specialist-photo">
-                            <img class="img-responsive" src="images/doctor_03.jpg" alt="">
+                            <a href="#">
+                                <img class="img-responsive" src="images/doctor_03.jpg" alt="">
+                            </a>
                         </div>
                         <a class="specialist-name" href="#"><span>Власов<br/>Николай Валерьевич</span></a>
                         <span class="specialist-status">Кандидат медицинских наук</span>
@@ -321,33 +327,50 @@
 
             <div class="certification-block">
                 <h1 class="text-center">Награды и сертификаты</h1>
-                <ul class="clearfix">
-                    <li>
-                        <a href="images/certification01.jpg" class="certification-item">
-                            <img class="img-responsive" src="images/certification01.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="images/certification02.jpg" class="certification-item">
-                            <img class="img-responsive" src="images/certification02.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="images/certification03.jpg" class="certification-item">
-                            <img class="img-responsive" src="images/certification03.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="images/certification04.jpg" class="certification-item">
-                            <img class="img-responsive" src="images/certification04.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="images/certification05.jpg" class="certification-item">
-                            <img class="img-responsive" src="images/certification05.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
+                <div class="certification">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="images/certification01.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification01.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification02.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification02.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification03.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification03.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification04.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification04.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification05.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification05.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification03.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification03.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification04.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification04.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/certification05.jpg" class="certification-item">
+                                <img class="img-responsive" src="images/certification05.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </div>
@@ -355,23 +378,31 @@
         <div class="partner-block">
             <h1 class="text-center"><span>Наши партнеры</span></h1>
             <div class="container">
-                <ul class="clearfix">
-                    <li>
-                        <img class="img-responsive" src="images/partner01.jpg" alt="">
-                    </li>
-                    <li>
-                        <img class="img-responsive" src="images/partner02.jpg" alt="">
-                    </li>
-                    <li>
-                        <img class="img-responsive" src="images/partner03.jpg" alt="">
-                    </li>
-                    <li>
-                        <img class="img-responsive" src="images/partner04.jpg" alt="">
-                    </li>
-                    <li>
-                        <img class="img-responsive" src="images/partner05.jpg" alt="">
-                    </li>
-                </ul>
+                <div class="partners-slider">
+                    <ul class="clearfix">
+                        <li>
+                            <img class="img-responsive" src="images/partner01.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/partner02.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/partner03.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/partner04.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/partner05.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/partner02.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="img-responsive" src="images/partner03.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 

@@ -3,7 +3,9 @@
     <div class="side-slider-body">
         <div class="side-slider-item">
             <div class="side-slider-photo">
-                <img class="img-responsive" src="images/doctor_01.jpg" alt="">
+                <a href="#">
+                    <img class="img-responsive" src="images/doctor_01.jpg" alt="">
+                </a>
             </div>
             <a href="#" class="side-slider-name">
                 <span>Агами Борис Павлович</span>
@@ -12,7 +14,9 @@
         </div>
         <div class="side-slider-item">
             <div class="side-slider-photo">
-                <img class="img-responsive" src="images/doctor_02.jpg" alt="">
+                <a href="#">
+                    <img class="img-responsive" src="images/doctor_02.jpg" alt="">
+                </a>
             </div>
             <a href="#" class="side-slider-name">
                 <span>Мухамадиев Дамир Миргасимович</span>
@@ -21,7 +25,9 @@
         </div>
         <div class="side-slider-item">
             <div class="side-slider-photo">
-                <img class="img-responsive" src="images/doctor_03.jpg" alt="">
+                <a href="#">
+                    <img class="img-responsive" src="images/doctor_03.jpg" alt="">
+                </a>
             </div>
             <a href="#" class="side-slider-name">
                 <span>Власов Николай Валерьевич</span>

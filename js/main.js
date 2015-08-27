@@ -15,7 +15,77 @@ $('.side-slider-body').slick({
 });
 
 
+$('.certification ul').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    autoplay: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    responsive: [
 
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        }
+    ]
+});
+
+
+$('.partners-slider ul').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    autoplay: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    responsive: [
+
+        {
+            breakpoint: 1318,
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        }
+    ]
+});
 
 $(".btn-popup").fancybox({
     'padding' : 0,

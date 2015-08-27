@@ -39,7 +39,9 @@
                             <div class="doctor">
                                 <div class="row">
                                     <div class="col-md-3 col-lg-4">
-                                        <img class="doctor-photo img-responsive" src="images/doctor_01.jpg" alt="">
+                                        <a href="#">
+                                            <img class="doctor-photo img-responsive" src="images/doctor_01.jpg" alt="">
+                                        </a>
                                     </div>
                                     <div class="col-md-9 col-lg-8">
                                         <div class="row doctor-title">
@@ -76,7 +78,9 @@
                                     <div class="col-md-9 col-lg-8">
                                         <div class="row doctor-title">
                                             <div class="col-sm-6 col-lg-7">
-                                                <h2><a href="#">Мухамадиев Дамир Миргасимович</a></h2>
+                                                <a href="">
+                                                    <h2><a href="#">Мухамадиев Дамир Миргасимович</a></h2>
+                                                </a>
                                                 <ul class="doctor-legend">
                                                     <li>Специализация: cтоматолог-терапевт</li>
                                                     <li>Стаж работы: более 18 лет</li>
@@ -108,7 +112,9 @@
                                     <div class="col-md-9 col-lg-8">
                                         <div class="row doctor-title">
                                             <div class="col-sm-6 col-lg-7">
-                                                <h2><a href="#">Власов Николай Валерьевич</a></h2>
+                                                <a href="">
+                                                    <h2><a href="#">Власов Николай Валерьевич</a></h2>
+                                                </a>
                                                 <ul class="doctor-legend">
                                                     <li>Специализация: cтоматолог-терапевт</li>
                                                     <li>Стаж работы: более 18 лет</li>
