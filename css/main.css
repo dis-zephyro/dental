@@ -787,6 +787,11 @@ body {
   padding-bottom: 15px;
   border-bottom: 1px solid #e1e1e1;
 }
+@media (min-width: 992px) {
+  .main {
+    padding-top: 170px;
+  }
+}
 .breadcrumb {
   padding: 3px 0;
   font-size: 13px;
