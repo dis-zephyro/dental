@@ -196,7 +196,6 @@ body {
   background-color: #0d8bd3;
 }
 .topnav .dropdown-menu {
-  width: 100%;
   border: none;
   display: block;
   position: relative;
@@ -1801,6 +1800,7 @@ h4 {
   font-weight: normal;
 }
 h1 {
+  color: #385e82;
   font-size: 36px;
   line-height: 40px;
   margin-bottom: 15px;

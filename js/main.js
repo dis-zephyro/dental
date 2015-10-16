@@ -160,13 +160,13 @@ var myMap,
 
 function init(){
     myMap = new ymaps.Map("map", {
-        center: [55.8118,37.7830],
-        zoom: 13,
+        center: [48.510918,44.553051],
+        zoom: 16,
         controls: ['smallMapDefaultSet']
     });
 
     myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-        hintContent: 'ООО ДенталВей'
+        hintContent: 'ООО Вита-Дент'
     }, {
         // Опции.
         // Необходимо указать данный тип макета.
