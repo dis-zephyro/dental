@@ -154,6 +154,7 @@ body {
 }
 @media (min-width: 768px) {
   .top .logo {
+    display: block;
     margin: -10px 0 -10px -10px;
   }
   .top .address {
@@ -165,6 +166,11 @@ body {
     margin-bottom: 0;
   }
 }
+@media (min-width: 992px) {
+  .top .callback {
+    margin-left: 45px;
+  }
+}
 @media (min-width: 1320px) {
   .top .logo {
     margin: -15px 0 -10px -10px;
@@ -174,6 +180,9 @@ body {
     line-height: 32px;
     text-align: center;
     font-family: 'SegoeUI-Bold';
+  }
+  .top .callback {
+    margin-left: 0;
   }
 }
 /* ----- Topnav ----- */

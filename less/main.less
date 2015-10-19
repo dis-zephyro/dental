@@ -116,6 +116,7 @@ body {
 	@media (min-width: @min-sm) {
 
 		.logo {
+			display: block;
 			margin: -10px 0 -10px -10px;
 		}
 
@@ -131,6 +132,13 @@ body {
 		.phone {
 			margin-bottom: 0;
 		}
+
+	}
+
+	@media (min-width: @min-md) {
+		.callback {
+			margin-left: 45px;
+		}
 	}
 
 	@media (min-width: @min-lg) {
@@ -144,6 +152,10 @@ body {
 			line-height: 32px;
 			text-align: center;
 			font-family: @font-bold;
+		}
+
+		.callback {
+			margin-left: 0;
 		}
 	}
 
